@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    transition: all .5s ease-in;
+    font-family: "Poppins" sans-serif;
+    /* overflow: hidden; */
+    text-decoration: none;
+    color: var(--c1);
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+p{
+    margin-bottom: 0 !important;
+}
+
+:root {
+	--c1: #172337;
+    --c2: #ff9f00;
+    --bs: 0 0 2px 2px rgba(0,0,0,.1);
+    --c3: #ffffff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+input{
+    /* overflow: hidden; */
+}
+
+ul, li, ol {
+    list-style-type: none;
+}
+
+
+
+.c_btn{
+    display: inline-block;
+    background-color: var(--c1);
+    padding: .5rem 1rem;
+    border-radius: .4rem;
+    color: var(--c3) !important;
+    cursor: pointer;
+    border: none;
+    overflow: hidden;
+    margin-right: .2rem;
+}
+
+.c_btn:hover{
+    color: var(--c2) !important;
+}
+
+.btn a {
+    color: var(--c3) !important;
+}
+
+
+.navbar{
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.4);
+    top: 0;
+    background: #fff;
+  }
+  .navbar-brand, .logo a{
+    font-size: 2rem;
+    color: var(--c1);
+    font-weight: 600;
+  }
+  .navbar-brand span, .logo span{
+    font-size: .8rem;
+    color: var(--c1) !important;
+  }
+
+  .navbar-brand:hover, .navbar-brand:hover span {
+      color: var(--c2);
+  }
+
+
+
+ul.position-absolute{
+    margin-left: -7.3rem !important;
+    background: var(--c3);
+    box-shadow: var(--bs);
+    width: max-content;
+    padding: 1rem 2rem;
+    border-radius: .3rem;
+    visibility: hidden;
+}
+
+
+
+
+
+li.position-relative:hover >  ul{
+    visibility: visible !important;
+}
+
+
+
+ul.position-absolute a{
+    color: var(--c1);
+}
+
+ul.position-absolute a:hover{
+    font-weight: 600
+}
+  /* CARD css */
+
+   .logo a{
+    font-size: 2rem;
+  }
+   .logo a span{
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--c1)
+  }
+
+  
+.card{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: var(--c1);
+    font-family: "poppins";
+}
+
+
+.card p{
+    margin-bottom: 2rem !important;
+}
+
+
+
+.card > div {
+    box-shadow: var(--bs);
+    width: 500px;
+    height: 400px;
+    padding: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .5rem;
+    background: #fff;
+}
+.card div  .logo{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.card div  .logo a{
+    font-size: 2rem;
+}
+.card div  .logo a span{
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--c3);
+}
+
+.card div  .content label{
+    width: 100%;
+    margin-bottom: .3rem;
+    display: inline-block;
+}
+.card div  .content input{
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+}
+
+
+

@@ -1,0 +1,586 @@
+@import url(global.css);
+
+
+
+
+/* reg profile css */
+.profile_set_box, .pres_html{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: max-content;
+    background: var(--c1);
+    padding-bottom: 1rem;
+  }
+  
+  .profile_set_box .row{
+    width: 95vw;
+    height: max-content;
+    margin-top: 5rem;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.1);
+    padding: 1rem;
+    background: #fff;
+    border-radius: .5rem;
+  }
+  
+  .profile_set_box .row > h3{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+  .profile_set_box .row .content .row_1{
+    display: flex;
+    margin-top: 1.8rem;
+  }
+  .profile_set_box .row .content .row_1 .img{
+    position: relative;
+    /*! margin: 0 5rem; */
+    /*! margin-top: 1rem; */
+    /*! overflow: none; */
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    height: max-content;
+  }
+  .profile_set_box .row .content .row_1 .img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: .3rem;
+    border: 1px solid var(--c2);
+  }
+  .profile_set_box .row .content .row_1 .img i{
+    position: absolute;
+    left: 13.5rem;
+    width: 45px;
+    background: #fff;
+    display: grid;
+    place-items: center;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid green;
+    color: green;
+    font-size: 1.5rem;
+    bottom: 0px;
+  }
+  
+  .row_1 > div:nth-child(1) > div:nth-child(2){
+    margin-top: 1rem;
+  }
+  
+  .row_1 > div:nth-child(1) > div:nth-child(2) > label{
+    margin-bottom: .2rem;
+    display: block;
+    text-align: center;
+  }
+  
+  
+  .row_1 > div:nth-child(1) > div:nth-child(2) > span{
+     padding: .3rem;
+    text-align: center;
+    text-transform: Capitalize;
+    font-weight: 600;
+    font-size: 1.3rem;
+    background: #ddd;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: .3rem;
+  }
+  
+  
+  
+  .row_1 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1){
+    /*! margin-top: -1.5rem; */
+    margin-bottom: 1rem;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .row_1 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) h2{
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    overflow: hidden;
+  }
+  
+  .row_1 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) span{
+    margin-top: -.3rem;
+    display: block;
+  }
+  
+  
+  .profile_set_box .row .content .brif{
+    position: relative;
+    flex: .7;
+  }
+.row_1 > div:nth-child(1){
+  flex: .3;
+  overflow: none !important;
+}
+  .profile_set_box .row .content .brif >h4{
+    margin-bottom: .3rem;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+  }
+  .profile_set_box .row .content .brif textarea{
+    width: 100%;
+    outline: none;
+    font-weight: 300;
+    font-size: .9rem;
+    height: max-content;
+    display: block;
+    min-height: 150px !important;
+  }
+  
+  .profile_set_box .row .content .brif p{
+    text-align: justify;
+    width: 100%;
+    font-size: .9rem;
+  }
+  .profile_set_box .row .content .brif i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 1rem;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    color: green;
+  }
+  
+  .profile_set_box .row .content .brif i.fa-times{
+    color: red;
+    margin-top: 2.8rem;
+  }
+  
+  
+  .profile_set_box .row .content .brif .edit_bio_box{
+    position: fixed;
+    width: 100vw;
+    min-height: 100vh;
+    display: none;
+    place-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.8);
+    z-index: 5555;
+    height: 100vh;
+    overflow-y: scroll !important;;
+  }
+  
+  .profile_set_box .row .content .brif .edit_bio_box > div{
+    background: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: .5rem;
+    position: relative;
+    width: 90vw;
+    height: 90vh;
+    overflow-y: scroll !important;
+    min-height: 90%;
+    /*! padding-bottom: 2rem; */
+  }
+  
+  .profile_set_box .row .content .brif .edit_bio_box > div .name_address .name_line{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile_set_box .row .content .brif .edit_bio_box > div .name_address .name_line div{
+    flex: .49;
+  }
+  
+  
+  
+  
+  
+  .profile_set_box .row .content .brif .edit_bio_box > div .name_address label{
+    width: 100%;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: .1rem;
+    margin-top: 1rem;
+  }
+  .profile_set_box .row .content .brif .edit_bio_box > div .name_address input{
+    padding: .4rem 0;
+    width: 100%;
+    margin-bottom: 1rem;
+    outline: none;
+  }
+  
+  
+  
+  .profile_set_box .row .content .brif .edit_bio_box > div > h2{
+    margin-bottom: .5rem;
+  }
+  
+  .profile_set_box .row .content .brif .edit_bio_box > div .btn{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: .5rem 1rem !important;
+    overflow: visible;
+  }
+
+div.btn:nth-child(8){
+  margin-bottom: 1rem !important;
+}
+  
+  .btn.deg_list_add_btn{
+    margin-top: -1.9rem !important;;
+    display: block;
+    margin-left: 0 !important;
+    width: 100px !important;
+  }
+  
+  .edit_bio_box > div:nth-child(1) > h2:nth-child(5) > span:nth-child(1){
+    width: 35px !important;
+    height: 35px !important;
+    display: inline-block;
+    margin-right: 2rem !important;
+    padding: 0;
+  }
+  .edit_bio_box ol li span.btn:nth-child(4){
+    width: 30px !important;
+    height: 30px;
+    position: absolute;
+    display: grid;
+    place-items: center;
+    padding: 0 !important;
+    right: 5rem;
+    background: none;
+    top: -.4rem;
+  }
+  
+  .edit_bio_box > div > ol{
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 0;
+  }
+  
+  .edit_bio_box > div:nth-child(1) > ol li{
+    list-style-type: decimal;
+    margin: 0;
+  }
+  
+  .edit_bio_box > div > ol li .row {
+    width: 100%;
+    display: flex;
+    box-shadow: none;
+    margin-top: -1rem;
+    position: relative;
+    justify-content: space-between;
+    margin-left: .3rem;
+  }
+  
+  .edit_bio_box > div > ol li .row .col{
+    margin-right: 1rem;
+    flex: .33;
+  }
+  .edit_bio_box > div > ol li .row .col input{
+    outline: none;
+    padding: .2rem;
+    width: 100%;
+  }
+  
+  .edit_bio_box .country_line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .edit_bio_box .country_line div{
+    flex: .49;
+  /*   margin-right: 2rem; */
+    
+  /*   position: relative; */
+  }
+  
+  
+  .edit_bio_box .country_line div .opt_card_country {
+    position: absolute;
+    background: var(--c3);
+    box-shadow: var(--bs);
+    width: 49%;
+    margin-top: -1rem;
+    height: 200px;
+    overflow: scroll;
+    padding: .5rem 0;
+    overflow-x: hidden;
+    display: none;
+    left: 0;
+    top: 108px;
+}
+
+.opt_card_country ul li{
+  cursor: pointer;
+}
+  
+.opt_card_country.active{
+  display: block !important;
+}
+  
+  .edit_bio_box li .fas.fa-times {
+    right: -110px !important;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .profile_set_box .row  .degree{
+    margin-top: 2rem;
+    position: relative;
+    background: #abcdef55;
+    border-radius: .2rem;
+    padding-bottom: .1rem;
+  }
+  .profile_set_box .row  .degree >h3{
+    margin-bottom: -1rem;
+    font-size: 1.5rem;
+    padding: .5rem;
+  }
+  .profile_set_box .row  .degree .deg_detail i.fa-edit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 1rem;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    color: green;
+  }
+  .profile_set_box .row  .degree .deg_detail div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .8rem;
+  }
+  
+  .profile_set_box .row  .degree .deg_detail > ol{
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .profile_set_box .row  .degree .deg_detail > ol > li{
+    list-style-type: decimal;
+    line-height: 2;
+  }
+  
+  .profile_set_box .row  .degree .deg_detail .deg_add_box{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    place-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.8);
+    padding: 5rem;
+    z-index: 5555;
+    margin-top: -1rem;
+  
+  }
+  .profile_set_box .row  .degree .deg_detail .deg_add_box > div{
+    background: #fff;
+    margin: 0 1rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+  }
+  .profile_set_box .row  .degree .deg_detail .deg_add_box > div > ol{
+    overflow-y: scroll;
+  
+  }
+  .profile_set_box .row  .degree .deg_detail .deg_add_box > div > ol > li{
+    display: flex;
+    position: relative;
+  }
+  .profile_set_box .row  .degree .deg_detail .deg_add_box > div > ol > li .row{
+    box-shadow: none;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #aaa;
+    justify-content: space-around;
+  }
+  .profile_set_box .row  .degree .deg_detail .deg_add_box > div > ol > li .row .col input{
+    width: 90%;
+    text-align: center;
+  }
+  .profile_set_box .row  .degree .deg_detail .deg_add_box > div > ol > li .btn{
+    position: absolute;
+    /* top: .5rem; */
+    right: 1rem;
+    background: transparent;
+    color: red;
+    width: 20px;
+  }
+  
+  .profile_set_box .row  .degree .deg_detail .deg_add_box > i.fas.fa-times{
+    font-size: 1.3rem;
+    color: #fff;
+    position: fixed;
+    top: 5rem;
+    right: 2rem;
+    cursor: pointer;
+    background: red;
+    padding: .5rem .8rem;
+    border-radius: .5rem;
+  }
+  
+  
+  .profile_set_box .row .degree .deg_detail div span{
+    background: #eee;
+    width: 420px;
+    padding: .5rem 1rem;
+  }
+  
+  .profile_set_box .row .degree .deg_detail .form .line input{
+    width: 420px;
+    padding: .5rem 1rem;
+    outline: none;
+  }
+  .profile_set_box .row .degree .deg_detail .form .add_btn{
+    width: 100px;
+    text-align: center;
+    padding-left: 1.6rem;
+  }
+  
+  
+  .profile_set_box .row .template_boxes{
+    margin-top: 2rem;
+  }
+  .profile_set_box .row .template_boxes h3{
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+  }
+  .profile_set_box .row .template_boxes .box{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .profile_set_box .row .template_boxes .box > a{
+    display: flex;
+    overflow: hidden;
+    width: 250px;
+    height: 200px;
+    margin: .5rem;
+    box-shadow: var(--bs);
+    padding: .3rem;
+    border-radius: .3rem;
+  }
+  .profile_set_box .row .template_boxes .box a img{
+     width: 230px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  
+  
+  .deg_list > li span{
+    width: 40px !important;
+    height: 40px !important;
+    background: var(--c2) !important;
+    position: absolute;
+    right: -.8rem;
+    top: .2rem;
+  }
+  
+  
+  
+  
+  
+  /* profile set blog css */
+  
+  .profile_set_box .blog_boxes{
+    position: relative;
+  }
+  .profile_set_box .blog_boxes > i.fas.fa-edit{
+    position: absolute;
+    font-size: 1.3rem;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    color: green;
+  }
+  .profile_set_box .blog_boxes .box{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .profile_set_box .blog_boxes .box > div{
+    height: max-content !important;
+    width: 300px !important;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem !important;
+  }
+  .profile_set_box .blog_boxes .box a img{
+    width: 100% !important;
+  }
+  .profile_set_box .blog_boxes .box a h2{
+    margin-top: .8rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+  .profile_set_box .blog_boxes .box a p{
+    font-size: .8rem !important;
+    text-align: justify;
+  }
+  
+  
+  
+  
+  
+@media screen and (max-width: 992px){
+  .profile_set_box .row .content .row_1 .img i{
+    left: 10rem;
+  }
+}
+  
+  
+@media screen and (max-width: 768px) {
+  
+  .profile_set_box .row .content .row_1 .img i{
+    left: 23rem;
+  }
+ 
+  .profile_set_box .row .content .row_1{
+    flex-direction: column;
+  }
+  
+  .profile_set_box .row .content .row_1 textarea{
+    width: 90vw;
+  }
+  .profile_set_box .row .degree .deg_detail div {
+    flex-direction: column;
+  }
+  
+  .profile_set_box .row .degree .deg_detail div span{
+    width: 90vw;
+    margin: .2rem 0;
+  }
+  
+  .profile_set_box .row .degree .deg_detail .form .line input{
+    width: 90vw;
+    flex-direction: column;
+    margin: .2rem 0;
+  }
+  
+}
+
+@media screen and (max-width: 500px){
+  .profile_set_box .row .content .row_1 .img i{
+    left: 12rem;
+  }
+}

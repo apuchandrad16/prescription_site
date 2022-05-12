@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <title>Profile</title>
+    
+        <!-- Bootstrap core CSS -->
+        <link href="../bootstrap-5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link
+          rel="stylesheet"
+          href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        />
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" href="../css/reg_proflie.css" />
+      </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">PS<span>cribe</span></a>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span> -->
+            <!-- </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0"> -->
+                <!-- <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> 
+              </ul> -->
+                
+
+              <div class="nav">
+                <ul>
+                    <li class="position-relative"><a href="#"><i class="fas fa-bars"></i>
+                    
+                    
+                        <ul class="position-absolute">
+                            <li><a href="./pres.html">Prescription</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./patient_info.html">Patient Info</a></li>
+                        </ul>
+                    
+                    </a></li>      
+                <ul>
+
+                <!-- <a href="../../login.html" class="btn c_btn c_btn" type="submit">Sign In</a> -->
+            </div>
+          </div>
+        </nav>
+      </header>
+
+<div class="profile_set_box">
+    <div class="row">
+        <h3>Make Your Profile</h3>
+      
+        <div class="content">
+            <input type="file" style="visibility: hidden;" class="input_doctor_photo">
+            <div class="row_1">
+                <div>
+                    <div class="img ">
+                        <img class="reg_pro_img" src="../img/img1.jpg" alt=""  >
+                        <i class="fas fa-camera" style="cursor: pointer;"></i>
+                    </div>
+
+                    <div>
+                        <div>
+                            
+                            <h2>Jaden Smith</h2>
+                            <span>Dhaka, Bangladesh</span>
+                        </div>
+
+                            <label for="">Specialist In</label>
+                            <!-- <input type="text" placeholder="write here"> -->
+                            <span>Arthopedix</span>
+                    </div>
+
+                </div>
+                <div class="brif">
+                    <div class="btns d-flex align-items-center">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    
+                    <div class="edit_bio_box" >
+                        <div>
+                            <i class="fas fa-times"></i>
+                            <form action="" class="name_address">
+                                
+
+                                <div class="name_line">
+                                    <div>
+                                        <label for="name_edit"> Name </label>
+                                        <input type="text" name="name_edit" id="name_edit">
+                                    </div>
+                                    <div>
+                                        <label for="name_edit"> Specialist In </label>
+                                        <input type="text" name="specialist_edit" id="specialist_edit">
+                                    </div>
+                                </div>
+
+                                <div class="country_line">
+                                    <div>
+                                     <label for="country">Country</label>
+                                     <input type="text" name="country" id="country" required>
+                                     <!-- <select name="country" id="country">
+                                         <option value="Bangladsh">Bangladesh</option>
+                                         <option value="Bangladsh">Bangladesh</option>
+                                         <option value="Bangladsh">Bangladesh</option>
+                                         <option value="Bangladsh">Bangladesh</option>
+                                         <option value="Bangladsh">Bangladesh</option>
+                                         <option value="Bangladsh">Bangladesh</option>
+                                     </select> -->
+                 
+                                     <div class="opt_card_country position-absolute">
+                                         <ul>
+                                             <li>Afghanistan</li>
+                                             <li>Albania</li>
+                                             <li>Algeria</li>
+                                             <li>American Samoa</li>
+                                             <li>Andorra</li>
+                                             <li>Angola</li>
+                                             <li>Anguilla</li>
+                                             <li>Antigua & Barbuda</li>
+                                             <li>Argentina</li>
+                                             <li>Armenia</li>
+                                             <li>Aruba</li>
+                                             <li>Australia</li>
+                                             <li>Austria</li>
+                                             <li>Azerbaijan</li>
+                                             <li>Bahamas</li>
+                                             <li>Bahrain</li>
+                                             <li>Bangladesh</li>
+                                             <li>Barbados</li>
+                                             <li>Belarus</li>
+                                             <li>Belgium</li>
+                                             <li>Belize</li>
+                                             <li>Benin</li>
+                                             <li>Bermuda</li>
+                                             <li>Bhutan</li>
+                                             <li>Bolivia</li>
+                                             <li>Bonaire</li>
+                                             <li>Bosnia & Herzegovina</li>
+                                             <li>Botswana</li>
+                                             <li>Brazil</li>
+                                             <li>British Indian Ocean Ter</li>
+                                             <li>Brunei</li>
+                                             <li>Bulgaria</li>
+                                             <li>Burkina Faso</li>
+                                             <li>Burundi</li>
+                                             <li>Cambodia</li>
+                                             <li>Cameroon</li>
+                                             <li>Canada</li>
+                                             <li>Canary Islands</li>
+                                             <li>Cape Verde</li>
+                                             <li>Cayman Islands</li>
+                                             <li>Central African Republic</li>
+                                             <li>Chad</li>
+                                             <li>Channel Islands</li>
+                                             <li>Chile</li>
+                                             <li>China</li>
+                                             <li>Christmas Island</li>
+                                             <li>Cocos Island</li>
+                                             <li>Colombia</li>
+                                             <li>Comoros</li>
+                                             <li>Congo</li>
+                                             <li>Cook Islands</li>
+                                             <li>Costa Rica</li>
+                                             <li>Cote DIvoire</li>
+                                             <li>Croatia</li>
+                                             <li>Cuba</li>
+                                             <li>Curacao</li>
+                                             <li>Cyprus</li>
+                                             <li>Czech Republic</li>
+                                             <li>Denmark</li>
+                                             <li>Djibouti</li>
+                                             <li>Dominica</li>
+                                             <li>Dominican Republic</li>
+                                             <li>East Timor</li>
+                                             <li>Ecuador</li>
+                                             <li>Egypt</li>
+                                             <li>El Salvador</li>
+                                             <li>Equatorial Guinea</li>
+                                             <li>Eritrea</li>
+                                             <li>Estonia</li>
+                                             <li>Ethiopia</li>
+                                             <li>Falkland Islands</li>
+                                             <li>Faroe Islands</li>
+                                             <li>Fiji</li>
+                                             <li>Finland</li>
+                                             <li>France</li>
+                                             <li>French Guiana</li>
+                                             <li>French Polynesia</li>
+                                             <li>French Southern Ter</li>
+                                             <li>Gabon</li>
+                                             <li>Gambia</li>
+                                             <li>Georgia</li>
+                                             <li>Germany</li>
+                                             <li>Ghana</li>
+                                             <li>Gibraltar</li>
+                                             <li>Great Britain</li>
+                                             <li>Greece</li>
+                                             <li>Greenland</li>
+                                             <li>Grenada</li>
+                                             <li>Guadeloupe</li>
+                                             <li>Guam</li>
+                                             <li>Guatemala</li>
+                                             <li>Guinea</li>
+                                             <li>Guyana</li>
+                                             <li>Haiti</li>
+                                             <li>Hawaii</li>
+                                             <li>Honduras</li>
+                                             <li>Hong Kong</li>
+                                             <li>Hungary</li>
+                                             <li>Iceland</li>
+                                             <li>Indonesia</li>
+                                             <li>India</li>
+                                             <li>Iran</li>
+                                             <li>Iraq</li>
+                                             <li>Ireland</li>
+                                             <li>Isle of Man</li>
+                                             <li>Israel</li>
+                                             <li>Italy</li>
+                                             <li>Jamaica</li>
+                                             <li>Japan</li>
+                                             <li>Jordan</li>
+                                             <li>Kazakhstan</li>
+                                             <li>Kenya</li>
+                                             <li>Kiribati</li>
+                                             <li>Korea North</li>
+                                             <li>Korea South</li>
+                                             <li>Kuwait</li>
+                                             <li>Kyrgyzstan</li>
+                                             <li>Laos</li>
+                                             <li>Latvia</li>
+                                             <li>Lebanon</li>
+                                             <li>Lesotho</li>
+                                             <li>Liberia</li>
+                                             <li>Libya</li>
+                                             <li>Liechtenstein</li>
+                                             <li>Lithuania</li>
+                                             <li>Luxembourg</li>
+                                             <li>Macau</li>
+                                             <li>Macedonia</li>
+                                             <li>Madagascar</li>
+                                             <li>Malaysia</li>
+                                             <li>Malawi</li>
+                                             <li>Maldives</li>
+                                             <li>Mali</li>
+                                             <li>Malta</li>
+                                             <li>Marshall Islands</li>
+                                             <li>Martinique</li>
+                                             <li>Mauritania</li>
+                                             <li>Mauritius</li>
+                                             <li>Mayotte</li>
+                                             <li>Mexico</li>
+                                             <li>Midway Islands</li>
+                                             <li>Moldova</li>
+                                             <li>Monaco</li>
+                                             <li>Mongolia</li>
+                                             <li>Montserrat</li>
+                                             <li>Morocco</li>
+                                             <li>Mozambique</li>
+                                             <li>Myanmar</li>
+                                             <li>Nambia</li>
+                                             <li>Nauru</li>
+                                             <li>Nepal</li>
+                                             <li>Netherland Antilles</li>
+                                             <li>Netherlands (Holland, Europe)</li>
+                                             <li>Nevis</li>
+                                             <li>New Caledonia</li>
+                                             <li>New Zealand</li>
+                                             <li>Nicaragua</li>
+                                             <li>Niger</li>
+                                             <li>Nigeria</li>
+                                             <li>Niue</li>
+                                             <li>Norfolk Island</li>
+                                             <li>Norway</li>
+                                             <li>Oman</li>
+                                             <li>Pakistan</li>
+                                             <li>Palau Island</li>
+                                             <li>Palestine</li>
+                                             <li>Panama</li>
+                                             <li>Papua New Guinea</li>
+                                             <li>Paraguay</li>
+                                             <li>Peru</li>
+                                             <li>Philippines</li>
+                                             <li>Pitcairn Island</li>
+                                             <li>Poland</li>
+                                             <li>Portugal</li>
+                                             <li>Puerto Rico</li>
+                                             <li>Qatar</li>
+                                             <li>Republic of Montenegro</li>
+                                             <li>Republic of Serbia</li>
+                                             <li>Reunion</li>
+                                             <li>Romania</li>
+                                             <li>Russia</li>
+                                             <li>Rwanda</li>
+                                             <li>St Barthelemy</li>
+                                             <li>St Eustatius</li>
+                                             <li>St Helena</li>
+                                             <li>St Kitts-Nevis</li>
+                                             <li>St Lucia</li>
+                                             <li>St Maarten</li>
+                                             <li>St Pierre & Miquelon</li>
+                                             <li>St Vincent & Grenadines</li>
+                                             <li>Saipan</li>
+                                             <li>Samoa</li>
+                                             <li>Samoa American</li>
+                                             <li>San Marino</li>
+                                             <li>Sao Tome & Principe</li>
+                                             <li>Saudi Arabia</li>
+                                             <li>Senegal</li>
+                                             <li>Seychelles</li>
+                                             <li>Sierra Leone</li>
+                                             <li>Singapore</li>
+                                             <li>Slovakia</li>
+                                             <li>Slovenia</li>
+                                             <li>Solomon Islands</li>
+                                             <li>Somalia</li>
+                                             <li>South Africa</li>
+                                             <li>Spain</li>
+                                             <li>Sri Lanka</li>
+                                             <li>Sudan</li>
+                                             <li>Suriname</li>
+                                             <li>Swaziland</li>
+                                             <li>Sweden</li>
+                                             <li>Switzerland</li>
+                                             <li>Syria</li>
+                                             <li>Tahiti</li>
+                                             <li>Taiwan</li>
+                                             <li>Tajikistan</li>
+                                             <li>Tanzania</li>
+                                             <li>Thailand</li>
+                                             <li>Togo</li>
+                                             <li>Tokelau</li>
+                                             <li>Tonga</li>
+                                             <li>Trinidad & Tobago</li>
+                                             <li>Tunisia</li>
+                                             <li>Turkey</li>
+                                             <li>Turkmenistan</li>
+                                             <li>Turks & Caicos Is</li>
+                                             <li>Tuvalu</li>
+                                             <li>Uganda</li>
+                                             <li>United Kingdom</li>
+                                             <li>Ukraine</li>
+                                             <li>United Arab Emirates</li>
+                                             <li>United States of America</li>
+                                             <li>Uruguay</li>
+                                             <li>Uzbekistan</li>
+                                             <li>Vanuatu</li>
+                                             <li>Vatican City State</li>
+                                             <li>Venezuela</li>
+                                             <li>Vietnam</li>
+                                             <li>Virgin Islands (Brit)</li>
+                                             <li>Virgin Islands (USA)</li>
+                                             <li>Wake Island</li>
+                                             <li>Wallis & Futana Is</li>
+                                             <li>Yemen</li>
+                                             <li>Zaire</li>
+                                             <li>Zambia</li>
+                                             <li>Zimbabwe</li>
+                                          </ul>
+                                     </div>
+                 
+                 
+                                    </div>
+                 
+                                     <div>
+                                         <label for="city">City</label>
+                                         <input type="text" name="city" id="city" required>  
+                                         <!-- <select name="region" id="region">
+                                             <option value="Barishal">Barishal</option>
+                                             <option value="Barishal">Barishal</option>
+                                             <option value="Barishal">Barishal</option>
+                                             <option value="Barishal">Barishal</option>
+                                             <option value="Barishal">Barishal</option>
+                                             <option value="Barishal">Barishal</option>
+                                         </select> -->
+                 
+                                         <!-- <div class="opt_card_city">
+                                             <ul>
+                                                 <li>Barishal</li>
+                                                 <li>Dhaka</li>
+                                                 <li>Bhola</li>
+                                                 <li>Jadu</li>
+                                             </ul>
+                                         </div> -->
+                 
+                 
+                                     </div>  
+                                 </div>
+
+                            </form>
+
+
+
+
+
+                            <h2>Bio</h2>
+                            <textarea name="edit_bio" class="edit_bio" placeholder="Description here"></textarea>
+
+                            <h2 style="margin-top: 1rem">Degrees
+                            
+                            </h2>
+
+                            <ol>
+                                <li>
+                                    <div class="row">
+                                     <div class="col">
+                                         <label for="Name">Name</label>
+                                         <input type="text" name="" id="Name" placeholder="Degree Name">
+                                     </div>
+                                     <div class="col">
+                                         <label for="Year">at</label>
+                                         <input type="number" placeholder="Year">
+                                     </div>
+                                     <div class="col">
+                                         <label for="From">From</label>
+                                         <input type="text" name="" id="From" placeholder="Board/University">
+                                     </div>
+                                    </div>
+                                    <!-- <span class="c_btn"><i class="fas fa-times"></i></span> -->
+                                 </li>                               
+                            </ol>
+                            <span class="btn c_btn deg_list_add_btn">+Add</span>
+
+                            <div class="btn c_btn edit_bio_box_save">save</div>
+                        </div>
+                    </div>
+
+
+                    
+
+                    <h4>Bio</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quas a aperiam quasi, harum similique amet optio asperiores, repellat id aliquam iure ullam. Fugit sed nobis laborum quo ratione. Dicta?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum rem odit numquam in facilis. Natus eius nobis odio dignissimos? Mollitia rem iste ipsum, dolorem perspiciatis repellat incidunt libero quam doloremque magni consectetur error similique adipisci nemo eos natus culpa non fugiat vero aliquam dolore in velit! Explicabo esse voluptates ducimus accusantium qui beatae id eveniet, ea, inventore quod sit magnam pariatur iste aliquam optio in. Eius est vero nobis alias et vel sapiente amet asperiores ipsum assumenda quam, voluptates suscipit? Ad praesentium accusantium sequi rem dolorem facilis sunt officiis ab quo architecto consequuntur inventore consequatur id, odit unde, optio quia.
+                    </p>
+
+
+                    <div class="degree">
+                        <h3> Degrees</h3>
+                        <div class="deg_detail">
+                            <!-- <i class="fas fa-edit"></i> -->
+                            <ol>
+                                <li>
+                                   <span>M.B.B.S.</span>  
+                                    from 
+                                    <span>DMC</span>
+                                    in
+                                     <span>2020</span>
+                                </li>
+                                <li>M.B.B.S. from DMC in 2020</li>
+                                <li>M.B.B.S. from DMC in 2020</li>
+                                <li>M.B.B.S. from DMC in 2020</li>
+                            </ol>
+
+                            <div class="deg_add_box">
+                                <i class="fas fa-times"></i>
+                                <div>
+                                    <h2 style="margin-top: .5rem;">Add Your Degree</h2>
+                                    <ol>
+                                        <li>
+                                            <div class="row">
+                                             <div class="col">
+                                                 <label for="Name">Name</label>
+                                                 <input type="text" name="" id="Name" placeholder="Degree Name">
+                                             </div>
+                                             <div class="col">
+                                                 <label for="Year">at</label>
+                                                 <input type="number" placeholder="Year">
+                                             </div>
+                                             <div class="col">
+                                                 <label for="From">From</label>
+                                                 <input type="text" name="" id="From" placeholder="Board/University">
+                                             </div>
+                                            </div>
+                                            <!-- <span class="c_btn"><i class="fas fa-times"></i></span> -->
+                                         </li>
+                                        <li>
+                                            <div class="row">
+                                             <div class="col">
+                                                 <label for="Name">Name</label>
+                                                 <input type="text" name="" id="Name" placeholder="Degree Name">
+                                             </div>
+                                             <div class="col">
+                                                 <label for="Year">at</label>
+                                                 <input type="number" placeholder="Year">
+                                             </div>
+                                             <div class="col">
+                                                 <label for="From">From</label>
+                                                 <input type="text" name="" id="From" placeholder="Board/University">
+                                             </div>
+                                            </div>
+                                            <!-- <span class="c_btn"><i class="fas fa-times"></i></span> -->
+                                         </li>
+                                        
+                                    </ol>
+        
+        
+                                    <div class="btns" style="display: flex;">
+                                            <a class="btn c_btn add_btn" style="width: 100px; margin-bottom: 1rem; text-align: center; display: inline-block; margin-right: 1rem;">
+                                                + Add
+                                                      </a>
+                                                <a class="btn c_btn add_btn" style="width: 100px; margin-bottom: 1rem; text-align: center; display: inline-block;">
+                                                    Save
+                                            </a>
+                                    </div>
+        
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+           
+
+
+            <div class="template_boxes">
+                <h3>Select Template</h3>
+
+                <div class="box">
+                    <a href="./pres.html">
+                        <img src="../img/social-page-interface-user-profile-ui-mockup-vector-35404396.jpg" alt="">
+                    </a>
+                    <a href="./pres.html">
+                        <img src="../img/social-page-interface-user-profile-ui-mockup-vector-35404396.jpg" alt="">
+                    </a>
+                </div>
+                <div class="btn c_btn add_btn">
+                    <a href="./pres.html">
+                        + Create a New Template
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="template_boxes">
+                <h3>Patients List</h3>
+
+                <div class="btn c_btn add_btn">
+                    <a href="./patient_info.html">
+                        View All Patient List
+                    </a>
+                </div>
+            </div>
+
+
+
+
+            <div class=" template_boxes blog_boxes">
+                <h3>Blogs</h3>
+                <!-- <i class="fas fa-edit"></i> -->
+                <div class="box">
+                    <div>
+                        <a href="./blog.html">
+                            <img src="../img/social-page-interface-user-profile-ui-mockup-vector-35404396.jpg" alt="">
+                        <h2>Remove Pimples From Face By Daily Activities</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, illo? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, accusamus.</p>
+                        </a>
+                        <div class="btns d-flex align-items-center">
+                            <a href="./blog.html" class="c_btn">Edit</a>
+                            <a  class="btn c_btn blog_del_btn">Delete</a>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="./blog.html">
+                            <img src="../img/social-page-interface-user-profile-ui-mockup-vector-35404396.jpg" alt="">
+                        <h2>Remove Pimples From Face By Daily Activities</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, illo? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, accusamus.</p>
+                        </a>
+                        <div class="btns d-flex align-items-center">
+                            <a href="./blog.html" class="c_btn">Edit</a>
+                            <a   class="btn c_btn blog_del_btn">Delete</a>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="./blog.html">
+                            <img src="../img/social-page-interface-user-profile-ui-mockup-vector-35404396.jpg" alt="">
+                        <h2>Remove Pimples From Face By Daily Activities</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, illo? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, accusamus.</p>
+                        </a>
+                        <div class="btns d-flex align-items-center">
+                            <a href="./blog.html" class="c_btn">Edit</a>
+                            <a   class="btn c_btn blog_del_btn">Delete</a>
+                        </div>
+                    </div>
+                  
+
+                </div>
+                <div class="btn c_btn add_btn">
+                    <a href="./blog.html">
+                        + Create a New Blog
+                    </a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<footer style="background: #fff; color: #000; text-align: center;">
+    <p>Design and Developed By A2 Series Developers.</p>
+</footer>
+
+
+
+
+<script src="../bootstrap-5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../ckeditor/ckeditor.js"></script>
+<script src="../js/reg_profile.js"></script>
+
+</body>
+</html>
